@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2949EBB265AB76300159015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2949EBA265AB76300159015 /* AppDelegate.swift */; };
+		C2949EBD265AB76300159015 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2949EBC265AB76300159015 /* SceneDelegate.swift */; };
+		C2949EBF265AB76300159015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2949EBE265AB76300159015 /* ViewController.swift */; };
+		C2949EC4265AB76400159015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2949EC3265AB76400159015 /* Assets.xcassets */; };
+		C2949EC7265AB76400159015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2949EC5265AB76400159015 /* LaunchScreen.storyboard */; };
+		C2949ED2265AB76400159015 /* RxTagViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2949ED1265AB76400159015 /* RxTagViewTests.swift */; };
+		C2949EDD265AB76400159015 /* RxTagViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2949EDC265AB76400159015 /* RxTagViewUITests.swift */; };
+		C2949EEB265AB87900159015 /* RxTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2949EEA265AB87900159015 /* RxTagView.swift */; };
+		C2949EED265AB89D00159015 /* RxTagButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2949EEC265AB89D00159015 /* RxTagButton.swift */; };
+		C2949EEF265AB8C200159015 /* Combine+UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2949EEE265AB8C200159015 /* Combine+UIControl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2949ECE265AB76400159015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2949EAF265AB76300159015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2949EB6265AB76300159015;
+			remoteInfo = RxTagView;
+		};
+		C2949ED9265AB76400159015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2949EAF265AB76300159015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2949EB6265AB76300159015;
+			remoteInfo = RxTagView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2949EB7265AB76300159015 /* RxTagView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxTagView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2949EBA265AB76300159015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2949EBC265AB76300159015 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2949EBE265AB76300159015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2949EC3265AB76400159015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2949EC6265AB76400159015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2949EC8265AB76400159015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2949ECD265AB76400159015 /* RxTagViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxTagViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2949ED1265AB76400159015 /* RxTagViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTagViewTests.swift; sourceTree = "<group>"; };
+		C2949ED3265AB76400159015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2949ED8265AB76400159015 /* RxTagViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxTagViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2949EDC265AB76400159015 /* RxTagViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTagViewUITests.swift; sourceTree = "<group>"; };
+		C2949EDE265AB76400159015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2949EEA265AB87900159015 /* RxTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTagView.swift; sourceTree = "<group>"; };
+		C2949EEC265AB89D00159015 /* RxTagButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTagButton.swift; sourceTree = "<group>"; };
+		C2949EEE265AB8C200159015 /* Combine+UIControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combine+UIControl.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2949EB4265AB76300159015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2949ECA265AB76400159015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2949ED5265AB76400159015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2949EAE265AB76300159015 = {
+			isa = PBXGroup;
+			children = (
+				C2949EB9265AB76300159015 /* RxTagView */,
+				C2949ED0265AB76400159015 /* RxTagViewTests */,
+				C2949EDB265AB76400159015 /* RxTagViewUITests */,
+				C2949EB8265AB76300159015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2949EB8265AB76300159015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2949EB7265AB76300159015 /* RxTagView.app */,
+				C2949ECD265AB76400159015 /* RxTagViewTests.xctest */,
+				C2949ED8265AB76400159015 /* RxTagViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2949EB9265AB76300159015 /* RxTagView */ = {
+			isa = PBXGroup;
+			children = (
+				C2949EBA265AB76300159015 /* AppDelegate.swift */,
+				C2949EBC265AB76300159015 /* SceneDelegate.swift */,
+				C2949EBE265AB76300159015 /* ViewController.swift */,
+				C2949EC3265AB76400159015 /* Assets.xcassets */,
+				C2949EC5265AB76400159015 /* LaunchScreen.storyboard */,
+				C2949EC8265AB76400159015 /* Info.plist */,
+				C2949EEA265AB87900159015 /* RxTagView.swift */,
+				C2949EEC265AB89D00159015 /* RxTagButton.swift */,
+				C2949EEE265AB8C200159015 /* Combine+UIControl.swift */,
+			);
+			path = RxTagView;
+			sourceTree = "<group>";
+		};
+		C2949ED0265AB76400159015 /* RxTagViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2949ED1265AB76400159015 /* RxTagViewTests.swift */,
+				C2949ED3265AB76400159015 /* Info.plist */,
+			);
+			path = RxTagViewTests;
+			sourceTree = "<group>";
+		};
+		C2949EDB265AB76400159015 /* RxTagViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2949EDC265AB76400159015 /* RxTagViewUITests.swift */,
+				C2949EDE265AB76400159015 /* Info.plist */,
+			);
+			path = RxTagViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2949EB6265AB76300159015 /* RxTagView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2949EE1265AB76400159015 /* Build configuration list for PBXNativeTarget "RxTagView" */;
+			buildPhases = (
+				C2949EB3265AB76300159015 /* Sources */,
+				C2949EB4265AB76300159015 /* Frameworks */,
+				C2949EB5265AB76300159015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxTagView;
+			productName = RxTagView;
+			productReference = C2949EB7265AB76300159015 /* RxTagView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2949ECC265AB76400159015 /* RxTagViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2949EE4265AB76400159015 /* Build configuration list for PBXNativeTarget "RxTagViewTests" */;
+			buildPhases = (
+				C2949EC9265AB76400159015 /* Sources */,
+				C2949ECA265AB76400159015 /* Frameworks */,
+				C2949ECB265AB76400159015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2949ECF265AB76400159015 /* PBXTargetDependency */,
+			);
+			name = RxTagViewTests;
+			productName = RxTagViewTests;
+			productReference = C2949ECD265AB76400159015 /* RxTagViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2949ED7265AB76400159015 /* RxTagViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2949EE7265AB76400159015 /* Build configuration list for PBXNativeTarget "RxTagViewUITests" */;
+			buildPhases = (
+				C2949ED4265AB76400159015 /* Sources */,
+				C2949ED5265AB76400159015 /* Frameworks */,
+				C2949ED6265AB76400159015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2949EDA265AB76400159015 /* PBXTargetDependency */,
+			);
+			name = RxTagViewUITests;
+			productName = RxTagViewUITests;
+			productReference = C2949ED8265AB76400159015 /* RxTagViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2949EAF265AB76300159015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C2949EB6265AB76300159015 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					C2949ECC265AB76400159015 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C2949EB6265AB76300159015;
+					};
+					C2949ED7265AB76400159015 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C2949EB6265AB76300159015;
+					};
+				};
+			};
+			buildConfigurationList = C2949EB2265AB76300159015 /* Build configuration list for PBXProject "RxTagView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2949EAE265AB76300159015;
+			productRefGroup = C2949EB8265AB76300159015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2949EB6265AB76300159015 /* RxTagView */,
+				C2949ECC265AB76400159015 /* RxTagViewTests */,
+				C2949ED7265AB76400159015 /* RxTagViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2949EB5265AB76300159015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2949EC7265AB76400159015 /* LaunchScreen.storyboard in Resources */,
+				C2949EC4265AB76400159015 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2949ECB265AB76400159015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2949ED6265AB76400159015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2949EB3265AB76300159015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2949EBF265AB76300159015 /* ViewController.swift in Sources */,
+				C2949EBB265AB76300159015 /* AppDelegate.swift in Sources */,
+				C2949EED265AB89D00159015 /* RxTagButton.swift in Sources */,
+				C2949EEF265AB8C200159015 /* Combine+UIControl.swift in Sources */,
+				C2949EBD265AB76300159015 /* SceneDelegate.swift in Sources */,
+				C2949EEB265AB87900159015 /* RxTagView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2949EC9265AB76400159015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2949ED2265AB76400159015 /* RxTagViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2949ED4265AB76400159015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2949EDD265AB76400159015 /* RxTagViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2949ECF265AB76400159015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2949EB6265AB76300159015 /* RxTagView */;
+			targetProxy = C2949ECE265AB76400159015 /* PBXContainerItemProxy */;
+		};
+		C2949EDA265AB76400159015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2949EB6265AB76300159015 /* RxTagView */;
+			targetProxy = C2949ED9265AB76400159015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2949EC5265AB76400159015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2949EC6265AB76400159015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2949EDF265AB76400159015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2949EE0265AB76400159015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2949EE2265AB76400159015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C22UGULQCC;
+				INFOPLIST_FILE = RxTagView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxmichael.RxTagView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2949EE3265AB76400159015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C22UGULQCC;
+				INFOPLIST_FILE = RxTagView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxmichael.RxTagView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2949EE5265AB76400159015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C22UGULQCC;
+				INFOPLIST_FILE = RxTagViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxmichael.RxTagViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxTagView.app/RxTagView";
+			};
+			name = Debug;
+		};
+		C2949EE6265AB76400159015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C22UGULQCC;
+				INFOPLIST_FILE = RxTagViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxmichael.RxTagViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxTagView.app/RxTagView";
+			};
+			name = Release;
+		};
+		C2949EE8265AB76400159015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C22UGULQCC;
+				INFOPLIST_FILE = RxTagViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxmichael.RxTagViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RxTagView;
+			};
+			name = Debug;
+		};
+		C2949EE9265AB76400159015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C22UGULQCC;
+				INFOPLIST_FILE = RxTagViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxmichael.RxTagViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RxTagView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2949EB2265AB76300159015 /* Build configuration list for PBXProject "RxTagView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2949EDF265AB76400159015 /* Debug */,
+				C2949EE0265AB76400159015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2949EE1265AB76400159015 /* Build configuration list for PBXNativeTarget "RxTagView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2949EE2265AB76400159015 /* Debug */,
+				C2949EE3265AB76400159015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2949EE4265AB76400159015 /* Build configuration list for PBXNativeTarget "RxTagViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2949EE5265AB76400159015 /* Debug */,
+				C2949EE6265AB76400159015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2949EE7265AB76400159015 /* Build configuration list for PBXNativeTarget "RxTagViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2949EE8265AB76400159015 /* Debug */,
+				C2949EE9265AB76400159015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2949EAF265AB76300159015 /* Project object */;
+}
